@@ -1,8 +1,9 @@
 import React from 'react';
 
 function Footer(props) {
-    return(
-        <div style={{"color":"white", "backgroundColor" : "purple", "marginTop": "10px"}}>FOOTER</div>
+    return (
+        <div className="footer">by<a href="https://github.com/ilkayalbayrak"> Ilkay Albayrak</a>
+        </div>
     )
 }
 

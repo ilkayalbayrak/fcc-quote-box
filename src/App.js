@@ -2,27 +2,23 @@ import React, { Component } from 'react';
 import Header from './components/Header'
 import Footer from './components/Footer'
 import QuoteBox from "./components/QuoteBox"
-import quoteData from './components/quoteData'
-import './components/App.css'
+//import quoteData from './components/quoteData'
+import './App.scss'
 
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      quotes: quoteData
+     
     }
-   
   }
-
-  
-
   render() {
     
     return (
-      <div id="wrapper">
+      <div id="wrapper" className="container-fluid">
         <Header />
-        <QuoteBox quote={this.state.quotes} />
+        <QuoteBox  />
           
         <Footer />
       </div>
